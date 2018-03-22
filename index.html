@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swapi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle|Passion+One" rel="stylesheet">
+</head>
+
+<body>
+    <!--Modal template-->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 id="modaltitle" class="d-block mx-auto"></h3>
+                </div>
+                <div class="modal-body mx-auto">
+                    <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Mass:</span>
+                        <span id="mass" class=" font-italic"></span>
+                    </div>
+                    <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Height:</span>
+                        <span id="height" class=" font-weight"></span>
+                    </div>
+                    <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Eye color:</span>
+                        <span id="eye" class=" font-italic"></span>
+                    </div>
+                    <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Hair color:</span>
+                        <span id="hair" class=" font-italic"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="text-center header mt-5 titlePrincipal">
+      <h1>Lista de películas de</h1>
+      <img class="imagen"  src="./assets/images/titulo.jpg" alt="logo">
+    </nav>
+
+    <div class="container-fluid d-inline-block mt-4 col" id="container-movie"></div>
+    <section id="vehicles">
+    <div class="text-center header mt-5 titlePrincipal">
+      <h1 class="section-title text-center header mt-5 titlePrincipal">Lista de vehiculos de</h1>
+      <img class="imagen"  src="./assets/images/titulo.jpg" alt="logo">
+    </div>
+      <div class="vehicles-div container-fluid d-inline-block  mt-5 col" id="vehicles-Info">
+    </div>
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
